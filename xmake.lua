@@ -3,7 +3,7 @@ set_languages("cxx17")
 
 add_repositories("local xmake-repo")
 
-add_requires("opengl", "sokol master", "sokol-tools-bin master")
+add_requires("opengl", "sokol master")
 
 rule("sokol_shaders")
 	set_extensions(".glsl")
